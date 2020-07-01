@@ -76,7 +76,7 @@ margin: 20px;
 position: absolute;
 width: 61px;
 height: 21px;
-left: 42%;
+left: 47%;
 top: 16px;
 font-family: Roboto;
 font-style: normal;
@@ -100,3 +100,21 @@ line-height: 33px;
 text-align: center;
 color: #000000;
 }
+
+/* media screenn for text */
+@media only screen and (max-width: 600px) {
+    .text-title-confirmation{
+    position: absolute;
+    width: 61px;
+    left: 39%;
+    height: 21px;
+    top: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    }
+  }

@@ -94,7 +94,7 @@ bottom: 0%;
 position: absolute;
 width: 61px;
 height: 21px;
-left: 45%;
+left: 47%;
 top: 16px;
 font-family: Roboto;
 font-style: normal;
@@ -103,7 +103,6 @@ font-size: 18px;
 line-height: 21px;
 text-align: center;
 color: #000000;
-
 }
 .text-name{
 position: absolute;
@@ -138,9 +137,8 @@ position: absolute;
 width: 205px;
 height: 70px;
 left: 50%;
-margin-left: -110px;
+margin-left: -98px;
 top: 350px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
@@ -237,4 +235,22 @@ font-weight: 500;
 font-size: 21px;
 line-height: 25px;
 color: #000000;
+}
+
+/* media screen for text */
+@media only screen and (max-width:600px){
+    .text-title-result{
+        position: absolute;
+        width: 61px;
+        height: 21px;
+        left: 42%;
+        top: 16px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #000000;
+    }
 }

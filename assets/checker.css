@@ -147,7 +147,6 @@ top: 557px;
 position: absolute;
 width: 44px;
 height: 25px;
-left: 45%;
 top: 17px;
 font-family: Roboto;
 font-style: normal;
@@ -157,3 +156,22 @@ line-height: 25px;
 text-align: center;
 color: #FFFFFF;
 }
+
+/* media screen */
+
+@media only screen and (max-width: 600px) {
+    .text-next{
+    position: absolute;
+    width: 44px;
+    height: 25px;
+    left: 45%;
+    top: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+  }
