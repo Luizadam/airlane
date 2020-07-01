@@ -17,10 +17,10 @@
             <span class="text-inform">Insert 4 digit passcode from passenger</span>
         </div>
         <div class="row">
-            <input class="d-inline form-digit"/>
-            <input class="d-inline form-digit2"/>
-            <input class="d-inline form-digit3"/>
-            <input class="d-inline form-digit4"/>
+            <input  type="text" id="digit1" maxlength="1" class="d-inline form-digit" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
+            <input type="text" id="digit2" maxlength="1" class="d-inline form-digit2" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
+            <input type="text" id="digit3" maxlength="1" class="d-inline form-digit3" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
+            <input type="text" id="digit4" maxlength="1" class="d-inline form-digit4" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/>
         </div>
     </section>
     <section class="bottom">
@@ -29,5 +29,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./assets/js/digit.js"></script>
 </body>
 </html>

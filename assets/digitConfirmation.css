@@ -19,6 +19,10 @@ color: #ffffff;
 }
 
 /* digit style  */
+input[type="text"]{
+    font-size:35px;
+    text-align: center;
+}
 .form-digit{
 position: absolute;
 width: 64px;
