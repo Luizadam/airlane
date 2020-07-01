@@ -1,0 +1,225 @@
+body{
+    background-color: red;
+}
+
+.main{
+position: absolute;
+width: 100%;
+height: 700px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 50px 50px;
+}
+
+.card-text{
+position: absolute;
+width: 263px;
+height: 75px;
+left: 50%;
+margin-left: -130px;
+top: 569px;
+border:none;
+}
+
+.desc-expired{
+position: absolute;
+width: 267px;
+height: 100px;
+left: 50%;
+margin-left: -130px;
+top: 540px;
+border: none;
+}
+
+/* horizontal line  */
+.hr-name{
+position: absolute;
+width: 88%;
+height:30px;
+left: 20px;
+top: 120px;
+border: none;
+border-bottom:2px solid #E5E5E5; ;
+}
+
+.hr-idnumber{
+position: absolute;
+width: 88%;
+height:30px;
+left: 20px;
+top: 210px;
+border: none;
+border-bottom:2px solid #E5E5E5; ;
+}
+
+/* image-style */
+
+.vector{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+margin: 20px;
+}
+
+.image{
+ position: absolute;
+ top: 280px;
+ left: 50%;
+ margin-left: -65px;
+}
+
+.image2{
+position: absolute;
+top: 290px;
+left: 50%;
+margin-left: -30px;
+}
+.image3{
+position: absolute;
+left: 50%;
+top: 335px;
+}
+.image4{
+position: absolute;
+left: 50%;
+margin-left: 6px;
+top: 350px;
+}
+
+/* button style */
+
+.button-next{
+position: absolute;
+width: 83%;
+height: 60px;
+left: 50%;
+margin-left: -42%;
+top: 709px;
+background: #E30613;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+/* text-style */
+.text-title-result{
+position: absolute;
+width: 61px;
+height: 21px;
+left: 45%;
+top: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+.text-name{
+position: absolute;
+width: 78px;
+height: 25px;
+left: 20px;
+top: 93px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #B3BBBE;
+}
+.text-idnumber{
+position: absolute;
+width: 78px;
+height: 25px;
+left: 20px;
+top: 180px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #B3BBBE;
+}
+
+.text-pass{
+position: absolute;
+width: 180px;
+height: 84px;
+left: 50%;
+margin-left: -80px;
+top: 430px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #000000;
+}
+
+.text-covid{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+.text-date{
+font-family: Roboto;
+font-style: normal;
+margin-top: -5px;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+.text-exp-date{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color:black;
+}
+.text-desc-name{
+position: absolute;
+width: 100px;
+height: 29px;
+left: 20px;
+top: 128px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+color: #000000;
+}
+.text-desc-idnumber{
+position: absolute;
+width: 100px;
+height: 29px;
+left: 20px;
+top: 210px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px
+color: #000000;
+}

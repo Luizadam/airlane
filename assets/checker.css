@@ -1,0 +1,144 @@
+.card-qr{
+position: absolute;
+width: 80%;
+height: 130px;
+background: #F2F3F4;
+border-radius: 30px;
+top: 55px;
+left: 50%;
+text-align: center;
+margin-left: -40%;
+}
+
+/* image style */
+
+.barcode{
+position: absolute;
+width: 268px;
+height: 268px;
+top: 228px;
+left:50%;
+margin-left:-129px;
+background: url(./img/barcode.png);
+}
+.vector-top-left{
+position: absolute;
+left:50%;
+margin-left: -130px;
+top: 220px;
+bottom: 67.67%;
+}
+.vector-top-right{
+position: absolute;
+left: 50%;
+margin-left: 100px;
+top: 220px;
+bottom: 67.67%; 
+}
+.vector-bottom-left{
+position: absolute;
+left:50%;
+margin-left: -130px;
+top:29rem;
+bottom: 39.9%;
+}
+.vector-bottom-right{
+position: absolute;
+left: 50%;
+margin-left: 100px;
+top:29rem;
+bottom: 39.9%;
+}
+
+.scan{
+position: absolute;
+width: 121px;
+height: 121px;
+left: 50%;
+margin-left: -22%;
+margin-top: 80px;
+background: #E30613;
+opacity: 0.9;
+border-radius: 50%;
+}
+
+.next-button{
+position: absolute;
+width: 83%;
+height: 60px;
+left: 50%;
+margin-left: -42%;
+top: 703px;
+background: #E30613;
+border: 1px solid #E30613;
+box-sizing: border-box;
+border-radius: 30px;
+}
+
+.line{
+position: absolute;
+width: 83%;
+height: 0px;
+left: 50%;
+margin-left: -42%;
+top: 661px;
+border: 2px solid #E5E5E5;
+}
+
+/* text style  */
+
+.text-scan{
+position: absolute;
+width: 56px;
+height: 25px;
+left: 32px;
+top: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+color: #ffffff;
+}
+.text-title-scan{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+margin-top: 15px;
+color: #000000;
+}
+.text-body-scan{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.text-idnumber{
+position: absolute;
+width: 231px;
+height: 21px;
+left: 50%;
+margin-left: -100px;
+top: 557px;
+}
+.text-next{
+position: absolute;
+width: 44px;
+height: 25px;
+left: 45%;
+top: 17px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}

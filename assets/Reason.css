@@ -1,0 +1,63 @@
+body{
+    background-color: transparent;
+}
+
+/* button style */
+.invalid-button{
+position: absolute;
+width: 35%;
+height: 60px;
+left: 8%;
+top: 100px;
+background: #FFFFFF;
+border: 2px solid #E30613;
+box-sizing: border-box;
+border-radius: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color: #E30613;
+}
+.ticket-button{
+position: absolute;
+width: 35%;
+height: 60px;
+left:53%;
+top: 100px;
+background: #FFFFFF;
+border: 2px solid #E30613;
+box-sizing: border-box;
+border-radius: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color: #E30613;
+}
+/* card style  */
+.card{
+position: absolute;
+width: 90%;
+height: 195px;
+left: 6%;
+top: 40%;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+
+/* text style */
+.text-reason{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #000000;
+}

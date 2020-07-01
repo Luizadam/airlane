@@ -1,0 +1,102 @@
+/* button style */
+.next-button{
+position: absolute;
+width: 83%;
+height: 60px;
+left: 50%;
+margin-left: -40%;
+top: 45rem;
+background: #E30613;
+box-sizing: border-box;
+border-radius: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color: #ffffff;
+}
+
+/* digit style  */
+.form-digit{
+position: absolute;
+width: 64px;
+height: 118px;
+left: 8%;
+top: 323px;
+background: #FFFFFF;
+border: 1px solid #B3BBBE;
+box-sizing: border-box;
+}
+.form-digit2{
+position: absolute;
+width: 64px;
+height: 118px;
+left: 33%;
+top: 323px;
+background: #FFFFFF;
+border: 1px solid #B3BBBE;
+box-sizing: border-box;
+}
+.form-digit3{
+position: absolute;
+width: 64px;
+height: 118px;
+left: 58%;
+top: 323px;
+background: #FFFFFF;
+border: 1px solid #B3BBBE;
+box-sizing: border-box;
+}
+.form-digit4{
+position: absolute;
+width: 64px;
+height: 118px;
+left: 82%;
+top: 323px;
+background: #FFFFFF;
+border: 1px solid #B3BBBE;
+box-sizing: border-box;
+}
+
+
+/* image style */
+.vector{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+margin: 20px;
+}
+
+/* text style */
+.text-title-confirmation{
+position: absolute;
+width: 61px;
+height: 21px;
+left: 42%;
+top: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+.text-inform{
+position: absolute;
+width: 100%;
+height: 76px;
+margin: 30px;
+top: 120px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+}
